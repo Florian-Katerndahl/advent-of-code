@@ -26,7 +26,6 @@ int main(int argc, char *argv[]) {
 		face_2 = width * height;
 		face_3 = height * length;
 		total += ((2 * face_1 + 2 * face_2 + 2 * face_3) + CMIN(face_1, face_2, face_3));
-		//printf("%dx%dx%d = %d\n", length, height, width, (2 * face_1 + 2 * face_2 + 2 * face_3 ) + CMIN(face_1, face_2, face_3));
 	}
 	printf("The elfs need %u square feet of wrapping paper\n", total);
 

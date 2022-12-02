@@ -1,6 +1,6 @@
 # Advent of Code
 
-This repo contains my attempts at solving the puzzles presented in the (Advent of Code)[https://adventofcode.com/].
+This repo contains my attempts at solving the puzzles presented in the [Advent of Code](https://adventofcode.com/).
 There is not really an more to say than that, apart from: The chance of this getting completet ever is fairly slim
 and I'll see how long I'm actually motivated on working on this project.
 
