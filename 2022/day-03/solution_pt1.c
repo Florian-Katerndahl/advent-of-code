@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> // strchr
+#include <string.h>
 #include <assert.h>
 
 #define ASCII_LENGTH 128
