@@ -1,5 +1,8 @@
 CC=gcc
 
+all: 201501 201502
+.PHONY: all clean
+
 201501: day-01/solution_pt1.c day-01/solution_pt2.c
 	$(CC) -o day-01/solution_pt1.out day-01/solution_pt1.c
 	$(CC) -o day-01/solution_pt2.out day-01/solution_pt2.c
@@ -7,3 +10,6 @@ CC=gcc
 201502: day-02/solution_pt1.c day-02/solution_pt2.c
 	$(CC) -o day-02/solution_pt1.out day-02/solution_pt1.c
 	$(CC) -o day-02/solution_pt2.out day-02/solution_pt2.c
+
+clean:
+	rm ./**/*.out
