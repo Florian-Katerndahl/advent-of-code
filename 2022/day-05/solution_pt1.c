@@ -43,7 +43,6 @@ int main(int argc, char *argv[]) {
 
     parse_stack(&stack, f);
 
-#if 1
     while(!feof(f)) {
         if (!parse_instruction_set(&instructions, f))
             continue;
@@ -54,7 +53,6 @@ int main(int argc, char *argv[]) {
 
         execute_instruction(&stack, &instructions);
     }
-#endif
 
     printf("Result: ");
 
