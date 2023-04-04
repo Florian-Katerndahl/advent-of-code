@@ -21,8 +21,6 @@ int main(int argc, char *argv[]) {
 
     data_stream = read_data_stream(data_stream, f);
 
-    printf("%s\n", data_stream);
-
     printf("Message starts at offset %ld\n", find_offset(data_stream) + 1UL);
 
     fclose(f);
