@@ -46,6 +46,9 @@ int main(int argc, char *argv[]) {
 
   printf("Number of pairs of elves where one assigned range overlaps with the other: %ld\n",
          complete_overlap);
+
+    fclose(f);
+
   return 0;
 }
 
